@@ -1,5 +1,12 @@
 *{
     font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+    
+}
+
+body{
     
 }
 /* /////////////////////////////////////
@@ -10,20 +17,46 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
   }
-
+li{
+    display: inline-block;
+    margin: 20px;
+}
 
   a{
-    color: white;
+    color: black;
     text-decoration:none; 
   }
 
 .nav{
-width: 100%;
-height: 200px;
-background-color: green;
+width: 87%;
+
+/* margin: auto; */
+margin: 25px auto 25px auto;
 
   }
+
+.header-image{
+
+    width: 100%;
+    height: 600px;
+    /* height: 500px; */
+    margin-bottom: 50px;
+}
+
+/* .header-image-container{
+     width: 80%;
+    margin: auto;
+} */
+
+.blog-heading{
+
+font-size: 20px;
+margin-bottom: 5px;
+}
+
+
 
 /* /////////////////////////////////////
 MAIN CONTAINERS
@@ -31,13 +64,16 @@ MAIN CONTAINERS
 
   .container{
     margin: 0 auto;
-    width: 90%;
-    background-color: black;
+    width: 95%;
+    width: 85%;
+    /* margin-top: 30px; */
+    /* background-color: black; */
+    /* background-color: #fafafa; */
     /* height: 600px; */
   }
 
   .blog-post-container{
-
+   margin-top: 30px;
     width: 100%;
     /* height: 400px; */
   }
@@ -51,9 +87,13 @@ BLOG CONTAINERS
 
 .blog-post1{
       background-color: white;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      width: 500px;
+
+
+      /* margin: auto; */
+
+
+      margin-bottom: 30px;
+      width: 800px;
       display: flex;
       
   }
@@ -62,29 +102,72 @@ BLOG CONTAINERS
 .blog-image{
     height: 200px;
    width: 250px;
-   margin: 10px;
+   margin: 10px 10px 10px 0px;
+  
    display: block;
    
 
 
 }
+.blog-link{
+display: flex;
+background-color: #fafafa;
+
+}
+
 
 .blog-text{
     margin: 10px;
+   
 }
 
 .blog-text-header{
-    font-size: 26px;
-    font-weight: 100;
+    font-size: 30px;
+    font-weight: 500;
+    
    
     
 }
 
 .blog-text-description{
-
+    margin-top: 25px;
 
 }
  
+footer{
+    margin-top: 100px;
+    height: 100px;
+    background-color: black;
+}
 /* /////////////////////////////////////
-
+POST1.HTML STARTS
 ///////////////////////////////////// */
+
+.post1-image{
+    margin-bottom: 50px;
+  
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.container-margin{
+background-color: #DCE6F2;
+width: 900px;
+margin-bottom: 20px;
+
+}
+
+.container-border{
+background-color: #ECF0DF;
+width: 900px;
+margin-bottom: 20px;
+
+}
+
+.container-padding{
+    background-color: #D9D9D9;
+    width: 900px;
+    margin-bottom: 20px;
+}
